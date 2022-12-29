@@ -286,4 +286,24 @@ header .master_play .bar .dot::before {
     width: 15px;
     height:15px ;
     border: 1px solid #36e2ec;
+    border-radius: 50%;
+    left: -7px;
+    top: -6.5px;
+    box-shadow: inset 0px 0px 3px #36e2ec;
+}  
+header .master_play .bar input {
+    position: absolute;
+    width: 100%;
+    top:-7;
+    left:0 ;
+    cursor: pointer;
+    z-index:99999999999999999999 ;
+    /* transition: 3s linear; */
+    opacity:0 ;
+}  
+header .master_play .vol {
+    position: relative;
+    width:100px ;
+  
+
 }  
