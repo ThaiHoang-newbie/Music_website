@@ -1,37 +1,132 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>Title</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <title>Trạm sạc pin tâm hồn</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
 </head>
-
 <body>
   <header>
-    <!-- place navbar here -->
+    <div class="menu_side">
+      <h1>Playlist</h1>
+      <div class="playlist">
+        <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+        <h4 ><span></span><i class="bi bi-music-note-beamed"></i>Last Listening</h4>
+        <h4 ><span></span><i class="bi bi-music-note-beamed"></i>Recommended</h4>
+      </div>
+      <div class="menu_song">
+        <li class="songItem">
+          <span>01</span>
+          <img src="img/1.jpeg" alt="">
+          <h5>On My Way <br>
+             <div class="subtitle">Alan walker</div>
+          </h5>
+          <i class="bi playlistPlay bi-play-circle-fill" id="1"></i>
+        </li>
+        <li class="songItem">
+          <span>01</span>
+          <img src="img/1.jpeg" alt="">
+          <h5>On My Way <br>
+             <div class="subtitle">Alan walker</div>
+          </h5>
+          <i class="bi playlistPlay bi-play-circle-fill" id="1"></i>
+        </li> 
+        <li class="songItem">
+          <span>01</span>
+          <img src="img/1.jpeg" alt="">
+          <h5>On My Way <br>
+             <div class="subtitle">Alan walker</div>
+          </h5>
+          <i class="bi playlistPlay bi-play-circle-fill" id="1"></i>
+        </li> 
+        <li class="songItem">
+          <span>01</span>
+          <img src="img/1.jpeg" alt="">
+          <h5>On My Way <br>
+             <div class="subtitle">Alan walker</div>
+          </h5>
+          <i class="bi playlistPlay bi-play-circle-fill" id="1"></i>
+        </li> 
+        <li class="songItem">
+          <span>01</span>
+          <img src="img/1.jpeg" alt="">
+          <h5>On My Way <br>
+             <div class="subtitle">Alan walker</div>
+          </h5>
+          <i class="bi playlistPlay bi-play-circle-fill" id="1"></i>
+        </li> 
+        <li class="songItem">
+          <span>01</span>
+          <img src="img/1.jpeg" alt="">
+          <h5>On My Way <br>
+             <div class="subtitle">Alan walker</div>
+          </h5>
+          <i class="bi playlistPlay bi-play-circle-fill" id="1"></i>
+        </li> 
+        <li class="songItem">
+          <span>01</span>
+          <img src="img/1.jpeg" alt="">
+          <h5>On My Way <br>
+             <div class="subtitle">Alan walker</div>
+          </h5>
+          <i class="bi playlistPlay bi-play-circle-fill" id="1"></i>
+        </li> 
+        <li class="songItem">
+          <span>01</span>
+          <img src="img/1.jpeg" alt="">
+          <h5>On My Way <br>
+             <div class="subtitle">Alan walker</div>
+          </h5>
+          <i class="bi playlistPlay bi-play-circle-fill" id="1"></i>
+        </li> 
+        <li class="songItem">
+          <span>01</span>
+          <img src="img/1.jpeg" alt="">
+          <h5>On My Way <br>
+             <div class="subtitle">Alan walker</div>
+          </h5>
+          <i class="bi playlistPlay bi-play-circle-fill" id="1"></i>
+        </li> 
+        <li class="songItem">
+          <span>01</span>
+          <img src="img/1.jpeg" alt="">
+          <h5>On My Way <br>
+             <div class="subtitle">Alan walker</div>
+          </h5>
+          <i class="bi playlistPlay bi-play-circle-fill" id="1"></i>
+        </li> 
+      </div>
+    </div>
+    <div class="song_side"></div>
+  <div class="master_play">
+      <div class="wave">
+        <div class="wavel"></div>
+        <div class="wavel"></div>
+        <div class="wavel"></div>
+      </div>
+      <img src="4.jpeg" alt="" id="poster_master_play">
+      <h5 id="title">
+        Vande mataram 
+        <div class="subtitle">Bankim chandra</div>
+      </h5>
+    <div class="icon">
+      <i class="bi shuffle bi-music-note-beamed">next</i>
+      <i class="bi bi-skip-start-fill"></i>
+      <i class="bi bi-play-fill"></i>
+      <i class="bi bi-skip-end-fill"></i>
+      <i class="bi bi-cloud-arrow-down-fill" id="download_music"></i>
+    </div>
+    <span id="currentStart">0:00</span>
+    <div class="bar">
+      <input type="range" id="seek" min="0" max="100">
+      <div class="bar2" id="bar2"></div>
+      <div class="dot"></div> 
+    </div>
+  </div>
   </header>
-  <main>
-
-  </main>
-  <footer>
-    <!-- place footer here -->
-  </footer>
-  <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-  </script>
-  <script src="main.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-  </script>
+  <SCript src="aap.js"></SCript>
 </body>
-
 </html>
