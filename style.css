@@ -361,30 +361,32 @@ header .master_play .vol .dot {
     top: -6.5px;
     box-shadow: inset 0px 0px 3px #36e2ec;
 }
-header .song_side{
+ header .song_side{
     z-index: 2;
 
-}
-header.song_side::before {
+} 
+header .song_side::before {
     content: '';
     position: absolute;
     width: 100%;
-    height: 300px;
-    background: url('Chipu.jpeg');
-    z-index: -1;
+    height: 300px ;
+    background: url('');
+   
+
+    
 }
-header .song_side nav {
+ header .song_side nav {
     width: 90%;
     height: 10%;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff;  */
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} 
 header .song_side nav  ul {
     display: flex;  
-}
+} 
 header .song_side nav  ul li {
     list-style: none;  
     position: relative;
@@ -394,9 +396,131 @@ header .song_side nav  ul li {
     cursor: pointer;
     transition: .3s linear ;
 }
-header .song_side nav  ul li:hover {
+ header .song_side nav  ul li:hover {
     color:#fff ;
-}
+} 
 header .song_side nav  ul li:nth-child(1) {
     color:#fff ;
 }
+header .song_side nav ul li span {
+    position: absolute;
+    width: 100%;
+    height: 2.5px;
+    background: #36e2ec;
+    bottom: -5px;
+    left: 0;
+    border-radius: 20px;
+} 
+header .song_side nav .search {
+    position: relative;
+    width: 40%;
+    padding: 1px 10px;
+    border: 1px solid #fff; 
+    color: gray;
+}
+header .song_side nav .search::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(184, 184, 184 .1);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    z-index: -1;
+}
+header .song_side nav .search .bi {
+    font-size: 13px;
+    padding: 3px 0px 0px 10px ;
+    color: BLUE;
+    
+}
+header .song_side nav .search input {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+    color: #FFF;
+    font-size: 12px;
+}
+header .song_side nav .user {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+header .song_side  nav .user img{
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   box-shadow: 2px 2px 8px #121213;
+}
+
+header .song_side .content {
+    width:90%;
+    height: 30%;
+    /* border: 1px solid #fff; */
+    margin: auto;
+    padding-top: 20px;
+}
+header .song_side .content h1 {
+    font-size: 11px;
+    font-weight: 600;
+}
+header .song_side .content p {
+    font-size: 11px;
+    font-weight: 400;
+    color: #4c5262;
+    margin: 5px;
+}
+header .song_side .content .buttons {
+   margin-top: 15px;
+}
+header .song_side .content .buttons button{
+    width: 130px;
+    height: 30px;
+    border: 2px solid #36e2ec;
+    outline: none;
+    border-radius: 20px;
+    background: #5adae0;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s linear;
+}
+header .song_side .content .buttons button:hover {
+    background: none;
+    color: #36e2ec;
+}
+
+
+header .song_side .content .buttons button:nth-child(2) {
+    background: none;
+    color: #36e2ec;
+}
+/* header .song_side .content .buttons button:nth-child(2):hover {
+    background: #36e2ec;
+    color:#fff;
+}   */
+header .song_side .popular_song {
+    width: 90%;
+    height:auto ;
+    margin: auto;
+    margin-top: 15px;
+    border: 1px solid #fff;
+}
+header .song_side .popular_song .h4 {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+header .song_side .popular_song .h4 .bi {
+   color:#a4a8b4 ;
+   cursor: pointer;
+   transition: .3s linear;
+}
+/* Chua hovel duoc */
+/* header .song_side .popular_song .h4  .bi:hover {
+    color:#fff; 
+} */
+ 
