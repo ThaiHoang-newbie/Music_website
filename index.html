@@ -100,14 +100,24 @@
         </li> 
       </div>
     </div>
-    <div class="song_side"></div>
+    <div class="song_side">
+      <nav>
+        <ul>
+          <li>Discover <span></span></li>
+          <li>My LIBRARY</li>
+          <li>RADIO</li>
+
+        </ul>
+
+      </nav>
+    </div>
   <div class="master_play">
       <div class="wave">
         <div class="wavel"></div>
         <div class="wavel"></div>
         <div class="wavel"></div>
       </div>
-      <img src="4.jpeg" alt="" id="poster_master_play">
+      <img src="img/4.jpeg" alt="" id="poster_master_play">
       <h5 id="title">
         Vande mataram 
         <div class="subtitle">Bankim chandra</div>
@@ -128,11 +138,12 @@
     <span id="currentEnd">0:30</span>
     <div class="vol">
       <i class="bi bi-volume-down-fill" id="vol_icon"></i> 
-      
+      <input type="range" min="0" max="100" id="vol">
+      <div class="vol_bar"></div>
+      <div class="dot" id="vol_dot"></div>
     </div>
   </div>
   </header>
 </body>
 </html>
-<div class="vol_bar" id="bar"></div>
-<div class="dot" id="vol_dot"></div>  
+   
