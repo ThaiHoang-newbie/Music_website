@@ -5,121 +5,121 @@ const songs = [
     {
         id: 1,
         songName: `On My Way<br>
-        <div class="subtitle">Alan Walker</div>`
+        <div class="subtitle">Alan Walker</div>`,
         poster: "img/1"
     },
     {
         id: 2,
         songName: `arjit singh<br>
-        <div class="subtitle">arjit singh</div>`
+        <div class="subtitle">arjit singh</div>`,
         poster: "img/2"
     },
     {
         id: 3,
         songName: `On My Way<br>
-        <div class="subtitle">Alan Walker</div>`
+        <div class="subtitle">Alan Walker</div>`,
         poster: "img/3"
     },
     {
         id: 4,
         songName: `On My Way<br>
-        <div class="subtitle">Alan Walker</div>`
+        <div class="subtitle">Alan Walker</div>`,
         poster: "img/4"
     },
     {
         id: 5,
         songName: `On My Way<br>
-        <div class="subtitle">Alan Walker</div>`
+        <div class="subtitle">Alan Walker</div>`,
         poster: "img/5"
     },
     {
         id: 6,
         songName: `On My Way<br>
-        <div class="subtitle">Alan Walker</div>`
+        <div class="subtitle">Alan Walker</div>`,
         poster: "img/6"
     },
     {
         id: 7,
         songName: `On My Way<br>
-        <div class="subtitle">Alan Walker</div>`
+        <div class="subtitle">Alan Walker</div>`,
         poster: "img/7"
     },
     {
         id: 8,
         songName: `On My Way<br>
-        <div class="subtitle">Alan Walker</div>`
+        <div class="subtitle">Alan Walker</div>`,
         poster: "img/8"
     },
     {
         id: 9,
         songName: `On My Way<br>
-        <div class="subtitle">Alan Walker</div>`
+        <div class="subtitle">Alan Walker</div>`,
         poster: "img/9"
     },
     {
         id: 10,
         songName: `On My Way<br>
-        <div class="subtitle">Alan Walker</div>`
+        <div class="subtitle">Alan Walker</div>`,
         poster: "img/10"
     },
     {
         id: 11,
         songName: `On My Way<br>
-        <div class="subtitle">Alan Walker</div>`
+        <div class="subtitle">Alan Walker</div>`,
         poster: "img/11"
     },
     {
         id: 12,
         songName: `On My Way<br>
-        <div class="subtitle">Alan Walker</div>`
+        <div class="subtitle">Alan Walker</div>`,
         poster: "img/12"
     },
     {
         id: 13,
         songName: `On My Way<br>
-        <div class="subtitle">Alan Walker</div>`
+        <div class="subtitle">Alan Walker</div>`,
         poster: "img/13"
     },
     {
         id: 14,
         songName: `On My Way<br>
-        <div class="subtitle">Alan Walker</div>`
+        <div class="subtitle">Alan Walker</div>`,
         poster: "img/14"
     },
     {
         id: 15,
         songName: `On My Way<br>
-        <div class="subtitle">Alan Walker</div>`
+        <div class="subtitle">Alan Walker</div>`,
         poster: "img/15"
     },
     {
         id: 16,
         songName: `On My Way<br>
-        <div class="subtitle">Alan Walker</div>`
+        <div class="subtitle">Alan Walker</div>`,
         poster: "img/16"
     },
     {
         id: 17,
         songName: `On My Way<br>
-        <div class="subtitle">Alan Walker</div>`
+        <div class="subtitle">Alan Walker</div>`,
         poster: "img/17"
     },
     {
         id: 18,
         songName: `On My Way<br>
-        <div class="subtitle">Alan Walker</div>`
+        <div class="subtitle">Alan Walker</div>`,
         poster: "img/18"
     },
     {
         id: 19,
         songName: `On My Way<br>
-        <div class="subtitle">Alan Walker</div>`
+        <div class="subtitle">Alan Walker</div>`,
         poster: "img/19"
     },
     {
         id: 20,
         songName: `On My Way<br>
-        <div class="subtitle">Alan Walker</div>`
+        <div class="subtitle">Alan Walker</div>`,
         poster: "img/20"
     }
 ]
