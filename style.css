@@ -223,6 +223,21 @@ header .master_play .icon .bi{
  cursor: pointer;
  outline: none;
 }
+header .master_play .icon #download_music {
+    text-decoration:none ;
+    color:#fff;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+header .master_play .icon .shuffle{
+    font-size: 17px;
+    margin-right: 10px;
+    width: 17.5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
 header .master_play .icon .bi:nth-child(2){
 border: 1px solid rgb(105, 105, 170,.1);
 border-radius: 50%;
