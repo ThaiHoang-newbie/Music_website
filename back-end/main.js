@@ -3,6 +3,14 @@ var app = express();
 // lắng nghe port 3000
 app.listen(3000);
 
+
+// Cấu hình app
+app.set("view engine", "ejs");
+app.set("render", "./render");
+app.get("/songs-list", function(req, res){
+    res.render("songs")
+});
+
 // http://localhost:3000/songs
 // /songs là route
 
